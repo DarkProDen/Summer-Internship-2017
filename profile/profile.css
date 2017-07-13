@@ -1,0 +1,39 @@
+.block{
+	float:left;
+	margin:1%;
+	width: 43%;
+	background-color: lightgray  ;
+	padding:2%;
+	border: 1px solid black;
+}
+img{
+	width: 30%;
+	float:left;
+}
+.info{
+	width: 64%;
+	display:inline-block;
+	margin-left: 2%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+	background-color: lightyellow ;
+	padding:1%;
+	margin-bottom:1%;
+	border-bottom: 3px dotted blue;
+}
+
+h1{
+	background-color:lightgreen;
+}
+
+h2{
+	background-color:lightgreen;
+}
+
